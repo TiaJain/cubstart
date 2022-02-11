@@ -268,7 +268,7 @@ main {
 
 .profile-image {
   margin-left: 75px;
-  border-radius: 50px;
+  border-radius: 50%;
   border-collapse: separate;
   /* overflow: hidden; */
 }
@@ -332,8 +332,10 @@ main {
   transition: transform 0.2s linear;
 }
 
-#experience {
+#experiences {
   margin-top: 50px;
+  box-shadow: none;
+  transition: none;
 }
 
 .project:hover, .experience:hover {
