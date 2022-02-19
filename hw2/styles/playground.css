@@ -1,0 +1,26 @@
+.trinkets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#add, #subtract {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  transition: box-shadow .3s;
+  border-radius:10px;
+  /* margin-left: 15px; */
+}
+
+#submit, #clear {
+  cursor: pointer;
+  height: 35px;
+  width: 75px;
+  transition: box-shadow .3s;
+  border-radius:10px;
+  margin-top: 20px;
+}
+
+#subtract:hover, #add:hover, #submit:hover, #clear:hover {
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.2); 
+}

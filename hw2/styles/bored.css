@@ -1,0 +1,19 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bored-button {
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  transition: box-shadow .3s;
+  border-radius:10px;
+}
+
+#bored-button:hover {
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.2); 
+}
